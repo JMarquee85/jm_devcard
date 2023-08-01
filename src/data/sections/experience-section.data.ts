@@ -24,10 +24,10 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
+      role: 'Platform and DevOps Engineer',
+      company: 'Talkiatry',
       image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      dates: [new Date('2023-03'), null],
       description: `
         - In tristique vulputate augue vel egestas.
         - Quisque ac imperdiet tortor, at lacinia ex.
@@ -40,13 +40,13 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [react(), nextJs(), typescript(), nx(), firebase()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [website({ url: 'https://talkiatry.com' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
+      role: 'Manager of IT Services, System Administration',
+      company: 'Talkiatry',
       image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      dates: [new Date('2021-07'), new Date('2021-07')],
       description: `
         - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
         - Ut posuere massa lacus, eleifend molestie tortor auctor vel.

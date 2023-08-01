@@ -11,9 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Josh Marcus - Software Developer/ DevOps Engineer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'At home with Python, Bash and PowerShell scripting. Extensive experience as an AWS and Azure engineer, deploying enterprise technologies and solving problems through automation tools such as Terraform, CircleCI, and GitHub Actions. I have experience developing technical solutions in a highly regulated environment, particularly healthcare.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
