@@ -32,6 +32,27 @@ export const astro = createSkillFactory({
   url: 'https://astro.build/',
 });
 
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'logos:aws',
+  iconColor: '#FF5D01',
+  url: 'https://aws.amazon.com/',
+});
+
+export const azure = createSkillFactory({
+  name: 'Azure',
+  icon: 'devicon:azure',
+  iconColor: '#FF5D01',
+  url: 'https://azure.microsoft.com',
+});
+
+export const bash = createSkillFactory({
+  name: 'Bash',
+  icon: 'skill-icons:bash-dark',
+  iconColor: '#FF5D01',
+  url: 'https://gnu.org/',
+});
+
 export const chakraUi = createSkillFactory({
   name: 'Chakra UI',
   icon: 'simple-icons:chakraui',
@@ -114,6 +135,13 @@ export const prettier = createSkillFactory({
   icon: 'simple-icons:prettier',
   iconColor: '#F7B93E',
   url: 'https://prettier.io/',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#F7B93E',
+  url: 'https://python.org/',
 });
 
 export const react = createSkillFactory({

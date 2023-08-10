@@ -2,12 +2,17 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
+  aws,
+  azure,
+  bash,
   chakraUi,
   eslint,
   firebase,
   nextJs,
   nx,
   pnpm,
+  postgreSql,
+  python,
   react,
   reactQuery,
   tailwindCss,
@@ -29,16 +34,14 @@ const experienceSectionData = {
       image: import('@/assets/logos/google-logo.jpg'),
       dates: [new Date('2023-03'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
-      `,
+        - Write applications, tools and services in Python, Typescript, PowerShell, Bash, and other languages
+        - Interact with Postgres, Snowflake, and other database services
+        - Design and configure Terraform modules to manage resources through Infrastructure as Code (IaC)
+        - Administer a wide range of AWS services (ECS, EKS, Batch, S3, Lambda,
+          Secrets Manager, etc.)`,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [typescript(), postgreSql(), python(), bash(), aws(), azure()],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
