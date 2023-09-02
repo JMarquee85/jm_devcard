@@ -3,17 +3,24 @@ import type { ReadonlyDeep } from 'type-fest';
 import {
   apolloGraphql,
   astro,
+  azure,
+  aws,
+  bash,
   chakraUi,
   cypress,
   eslint,
   firebase,
+  linux,
   mongoDb,
   nestJs,
   pnpm,
   postgreSql,
+  powershell,
   prettier,
+  python,
   react,
   sass,
+  snowflake,
   supabase,
   tailwindCss,
   typescript,
@@ -28,52 +35,36 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'I already know',
+      // title: 'I already know',
       skills: [
-        react({
+        python({
           level: 5,
           description:
             'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),
         typescript({
-          level: 4,
+          level: 3,
           description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         }),
-        sass({
+        powershell({
           level: 4,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
+        astro({ level: 2 }),
+        postgreSql({ level: 2 }),
+        bash({ level: 4 }),
+        aws({ level: 3 }),
+        azure({
           level: 4,
           description:
             'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
         }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
       ],
     },
-    {
-      title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
-    },
-    {
-      title: 'I speak',
-      skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
-      ],
-    },
+    // {
+    //   title: 'I want to learn',
+    //   skills: [apolloGraphql(), astro(), supabase(), cypress()],
+    // },
   ],
 } as const satisfies ReadonlyDeep<SkillsSection>;
 
