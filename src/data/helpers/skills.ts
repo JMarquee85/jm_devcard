@@ -60,6 +60,13 @@ export const chakraUi = createSkillFactory({
   url: 'https://chakra-ui.com/',
 });
 
+export const cpanel = createSkillFactory({
+  name: 'cpanel',
+  icon: 'simple-icons:cpanel',
+  iconColor: '#319795',
+  url: 'https://cpanel.net/',
+});
+
 export const cypress = createSkillFactory({
   name: 'Cypress',
   icon: 'simple-icons:cypress',
@@ -81,11 +88,25 @@ export const firebase = createSkillFactory({
   url: 'https://firebase.google.com/',
 });
 
+export const ios = createSkillFactory({
+  name: 'iOS',
+  icon: 'simple-icons:ios',
+  iconColor: '#FFCA28',
+  url: 'https://apple.com/',
+});
+
 export const jest = createSkillFactory({
   name: 'Jest',
   icon: 'simple-icons:jest',
   iconColor: '#C21325',
   url: 'https://jestjs.io/',
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'cib:linux',
+  iconColor: '#C21325',
+  url: 'https://linux.org/',
 });
 
 export const mongoDb = createSkillFactory({
@@ -130,6 +151,13 @@ export const postgreSql = createSkillFactory({
   url: 'https://www.postgresql.org/',
 });
 
+export const powershell = createSkillFactory({
+  name: 'PowerShell',
+  icon: 'skill-icons:powershell-dark',
+  iconColor: '#4169E1',
+  url: 'https://learn.microsoft.com/en-us/powershell//',
+});
+
 export const prettier = createSkillFactory({
   name: 'Prettier',
   icon: 'simple-icons:prettier',
@@ -165,6 +193,13 @@ export const sass = createSkillFactory({
   url: 'https://sass-lang.com/',
 });
 
+export const snowflake = createSkillFactory({
+  name: 'Snowflake',
+  icon: 'fluent-emoji:snowflake',
+  iconColor: '#CC6699',
+  url: 'https://sass-lang.com/',
+});
+
 export const supabase = createSkillFactory({
   name: 'Supabase',
   icon: 'simple-icons:supabase',
@@ -191,4 +226,11 @@ export const vue = createSkillFactory({
   icon: 'simple-icons:vuedotjs',
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
+});
+
+export const windows = createSkillFactory({
+  name: 'Windows',
+  icon: 'ri:windows-fill',
+  iconColor: '#4FC08D',
+  url: 'https://microsoft.com/',
 });
