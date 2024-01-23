@@ -17,7 +17,7 @@ jobs:
           node-version: "14" # Specify the Node.js version
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build # Replace with your build command
