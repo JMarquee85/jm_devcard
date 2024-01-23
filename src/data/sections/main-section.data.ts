@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'joshmarcusmusic.com', url: '/', fullRow: true },
   ],
   description:
-    'Experienced and versatile Engineer with a background in Support, System Administration and IT as well as development teams. Comfortable and effective in almost any environment. Experience in healthcare and operating in a highly regulated environment. Work as both an individual contributor and manager, solid team player.',
+    'Experienced and versatile Software Engineer with a background in Platform Engineering, DevOps, System Administration and IT. Comfortable and effective in almost any environment. Experience in healthcare, government and other highly regulated and secured environments. Experience both as an individual contributor and as a manager.',
   tags: [{ name: 'Open for freelance' }, { name: 'Management experience' }, { name: 'Multiple technical disciplines' }],
   action: {
     label: 'Download Resume',
