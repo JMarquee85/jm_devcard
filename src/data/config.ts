@@ -11,10 +11,10 @@ const config = {
     },
   },
   meta: {
-    title: 'Josh Marcus - Software Developer/ DevOps Engineer',
+    title: 'Josh Marcus - Full Stack Software Engineer',
     description:
       'At home with Python, Bash and PowerShell scripting. Extensive experience as an AWS and Azure engineer, deploying enterprise technologies and solving problems through automation tools such as Terraform, CircleCI, and GitHub Actions. I have experience developing technical solutions in a highly regulated environment, particularly healthcare.',
-    faviconPath: '/src/assets/my-image.jpeg',
+    faviconPath: '/src/assets/jm.jpg',
   },
   pdf: {
     footer:
