@@ -6,23 +6,15 @@ import {
   azure,
   aws,
   bash,
-  chakraUi,
-  cypress,
-  eslint,
-  firebase,
   linux,
-  mongoDb,
-  nestJs,
-  pnpm,
+  github_icon,
   postgreSql,
   powershell,
   prettier,
   python,
-  react,
   sass,
   snowflake,
   supabase,
-  tailwindCss,
   typescript,
 } from '../helpers/skills';
 
@@ -35,30 +27,37 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      // title: 'I already know',
+      title: '',
       skills: [
         python({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'Experience with Python in many contexts, including data science, services and interacting with Cloud provider services such as AWS.',
         }),
         typescript({
           level: 3,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+          description: 'Experience writing and contributing to both frontend and backend applications.',
         }),
         powershell({
           level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
+          description: 'Experience using Powershell for scripting purposes as well as allowing larger applications to interact with Enterprise Microsoft services.',
         }),
-        astro({ level: 2 }),
         postgreSql({ level: 2 }),
-        bash({ level: 4 }),
-        aws({ level: 3 }),
+        github_icon({ level: 4 }),
+        bash({
+          level: 4,
+          description: 'Bash scripting as well as contextual configuration changes in CI/CD pipelines and other such contexts.',
+        }),
+        aws({ level: 3,
+          description: 'Experience managing a wide variety of AWS services, including ECS, EKS, Batch, S3, Lambda, Secrets Manager, etc.',
+        }),
         azure({
           level: 4,
           description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
+            'Served as a System Administrator and later managed a SysAdmin team for a company using Microsoft and Azure as a major component of its setup.',
         }),
+        astro({ level: 2,
+          description: 'Experience using Astro to build static sites.',}),
       ],
     },
     // {

@@ -13,7 +13,7 @@ const educationSectionData = {
     {
       title: 'Masters, Music Performance',
       institution: 'William Paterson University',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+      image: import('@/assets/logos/wp.png'),
       dates: [new Date('2015.09'), new Date('2022.05')],
       description: 'Masters in Music Performance with a focus in Jazz Studies.',
       links: [website({ url: 'https://wpunj.edu' })],
@@ -21,7 +21,7 @@ const educationSectionData = {
     {
       title: 'Bachelors, Music Performance',
       institution: 'Eastern Illinois University',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+      image: import('@/assets/logos/eiu.png'),
       dates: [new Date('2004.09'), new Date('2010.05')],
       description: "Bachelor's degree in Music Performance with a focus in Jazz Studies.",
       links: [website({ url: 'https://eiu.edu' })],

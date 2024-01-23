@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { github, linkedin } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -9,9 +9,9 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
+  image: import('@/assets/jm_photo.jpg'),
   fullName: 'Josh Marcus',
-  role: 'Platform Engineer',
+  role: 'Full Stack Software Engineer',
   details: [
     // { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
     { label: 'Email', value: 'joshmarcus85@gmail.com', url: 'mailto:joshmarcus85@gmail.com' },
@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'joshmarcusmusic.com', url: '/', fullRow: true },
   ],
   description:
-    'Experienced and versatile Software Engineer with a background in Platform Engineering, DevOps, System Administration and IT. Comfortable and effective in almost any environment. Experience in healthcare, government and other highly regulated and secured environments. Experience both as an individual contributor and as a manager.',
+    'Experienced and versatile Software Engineer with a background in Platform Engineering, DevOps, System Administration and IT. Comfortable and effective in almost any environment. Experience in healthcare, government and other highly regulated and secured environments. Experience both as an individual contributor and as a manager. Also, a musician and composer.',
   tags: [{ name: 'Open for freelance' }, { name: 'Management experience' }, { name: 'Multiple technical disciplines' }],
   action: {
     label: 'Download Resume',

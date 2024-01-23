@@ -28,28 +28,28 @@ export const apolloGraphql = createSkillFactory({
 export const astro = createSkillFactory({
   name: 'Astro',
   icon: 'simple-icons:astro',
-  iconColor: '#FF5D01',
+  iconColor: '#BC52EE',
   url: 'https://astro.build/',
 });
 
 export const aws = createSkillFactory({
   name: 'AWS',
-  icon: 'logos:aws',
+  icon: 'simple-icons:amazonaws',
   iconColor: '#FF5D01',
   url: 'https://aws.amazon.com/',
 });
 
 export const azure = createSkillFactory({
   name: 'Azure',
-  icon: 'devicon:azure',
-  iconColor: '#FF5D01',
+  icon: 'simple-icons:microsoftazure',
+  iconColor: '#0078D4',
   url: 'https://azure.microsoft.com',
 });
 
 export const bash = createSkillFactory({
   name: 'Bash',
-  icon: 'skill-icons:bash-dark',
-  iconColor: '#FF5D01',
+  icon: 'simple-icons:gnubash',
+  iconColor: '#4EAA25',
   url: 'https://gnu.org/',
 });
 
@@ -88,11 +88,32 @@ export const firebase = createSkillFactory({
   url: 'https://firebase.google.com/',
 });
 
+export const github_icon = createSkillFactory({
+  name: 'Github',
+  icon: 'simple-icons:github',
+  iconColor: '#FFFFFF',
+  url: 'https://github.com/',
+});
+
 export const ios = createSkillFactory({
   name: 'iOS',
   icon: 'simple-icons:ios',
   iconColor: '#FFCA28',
   url: 'https://apple.com/',
+});
+
+export const macos = createSkillFactory({
+  name: 'OSX',
+  icon: 'simple-icons:macos',
+  iconColor: '#000000',
+  url: 'https://apple.com/',
+});
+
+export const nodeJs = createSkillFactory({
+  name: 'nodeJS',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#FFCA28',
+  url: 'https://node.js/',
 });
 
 export const jest = createSkillFactory({
@@ -104,7 +125,7 @@ export const jest = createSkillFactory({
 
 export const linux = createSkillFactory({
   name: 'Linux',
-  icon: 'cib:linux',
+  icon: 'simple-icons:linux',
   iconColor: '#C21325',
   url: 'https://linux.org/',
 });
@@ -153,7 +174,7 @@ export const postgreSql = createSkillFactory({
 
 export const powershell = createSkillFactory({
   name: 'PowerShell',
-  icon: 'skill-icons:powershell-dark',
+  icon: 'simple-icons:powershell',
   iconColor: '#4169E1',
   url: 'https://learn.microsoft.com/en-us/powershell//',
 });
@@ -195,7 +216,7 @@ export const sass = createSkillFactory({
 
 export const snowflake = createSkillFactory({
   name: 'Snowflake',
-  icon: 'fluent-emoji:snowflake',
+  icon: 'simple-icons:snowflake',
   iconColor: '#CC6699',
   url: 'https://sass-lang.com/',
 });

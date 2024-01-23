@@ -5,24 +5,16 @@ import {
   aws,
   azure,
   bash,
-  chakraUi,
   cpanel,
-  eslint,
-  firebase,
+  github_icon,
   ios,
   linux,
-  nextJs,
-  nx,
-  pnpm,
+  macos,
   postgreSql,
   powershell,
   python,
-  react,
-  reactQuery,
   snowflake,
-  tailwindCss,
   typescript,
-  vue,
   windows,
 } from '../helpers/skills';
 
@@ -42,13 +34,13 @@ const experienceSectionData = {
       description: `
         - Write and debug applications and services in Typescript, Python, Bash, and other languages
         - Write applications, tools and services in Python, Typescript, PowerShell, Bash, and other languages
-        - Interact with Postgres, Snowflake, and other database services
+        - Interact with and manage Postgres, Snowflake, and other database services
         - Design and configure Terraform modules to manage resources through Infrastructure as Code (IaC)
         - Administer a wide range of AWS services (ECS, EKS, Batch, S3, Lambda,
           Secrets Manager, etc.)`,
       tagsList: {
         title: 'Technologies',
-        tags: [typescript(), postgreSql(), python(), bash(), snowflake(), aws(), azure()],
+        tags: [typescript(), postgreSql(), python(), bash(), snowflake(), aws(), azure(), github_icon()],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
@@ -56,15 +48,18 @@ const experienceSectionData = {
       role: 'Manager of IT Services, System Administration',
       company: 'Talkiatry',
       image: import('@/assets/logos/talkiatry-logo.png'),
-      dates: [new Date('2021-07'), new Date('2021-07')],
+      dates: [new Date('2021-07'), new Date('2023-03')],
       description: `
-        - Provided help desk support to medical and non-medical personnel distributing the COVID-19 vaccine
-        - Provided hardware and software support on iOS and Windows devices
-        - Interfaced with MTX management to ensure HIPAA compliance
+        - Configured wide variety of applications for enterprise use
+        - Oversaw team of six System Administrators
+        - Managed Azure Active Directory and other Microsoft services
+        - Developed workflow to automate user onboarding, including account procurement, device setup, and application configuration
+        - Configured and managed zero-touch deployment strategies using Microsoft Autopilot and Mosyle
+        - Oversaw PoCs for potential application vendors and services
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [azure(), powershell(), python(), windows()],
+        tags: [azure(), powershell(), python(), windows(), macos()],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
