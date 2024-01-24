@@ -14,6 +14,7 @@ import {
   powershell,
   python,
   snowflake,
+  terraform,
   typescript,
   windows,
 } from '../helpers/skills';
@@ -40,7 +41,7 @@ const experienceSectionData = {
           Secrets Manager, etc.)`,
       tagsList: {
         title: 'Technologies',
-        tags: [typescript(), postgreSql(), python(), bash(), snowflake(), aws(), azure(), github_icon()],
+        tags: [typescript(), postgreSql(), python(), bash(), snowflake(), aws(), azure(), github_icon(), terraform()],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },

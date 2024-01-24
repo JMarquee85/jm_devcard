@@ -1,7 +1,6 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
   astro,
   azure,
   aws,
@@ -10,11 +9,9 @@ import {
   github_icon,
   postgreSql,
   powershell,
-  prettier,
   python,
-  sass,
   snowflake,
-  supabase,
+  terraform,
   typescript,
 } from '../helpers/skills';
 
@@ -42,12 +39,13 @@ const skillsSectionData = {
           level: 4,
           description: 'Experience using Powershell for scripting purposes as well as allowing larger applications to interact with Enterprise Microsoft services.',
         }),
-        postgreSql({ level: 2 }),
+        postgreSql({ level: 4 }),
         github_icon({ level: 4 }),
         bash({
           level: 4,
           description: 'Bash scripting as well as contextual configuration changes in CI/CD pipelines and other such contexts.',
         }),
+        terraform({ level: 3}),
         aws({ level: 3,
           description: 'Experience managing a wide variety of AWS services, including ECS, EKS, Batch, S3, Lambda, Secrets Manager, etc.',
         }),
@@ -58,6 +56,8 @@ const skillsSectionData = {
         }),
         astro({ level: 2,
           description: 'Experience using Astro to build static sites.',}),
+        snowflake({ level: 3, }),
+        linux({ level: 4, }),
       ],
     },
     // {

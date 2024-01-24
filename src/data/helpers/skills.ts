@@ -53,6 +53,13 @@ export const bash = createSkillFactory({
   url: 'https://gnu.org/',
 });
 
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://docker.com/',
+});
+
 export const chakraUi = createSkillFactory({
   name: 'Chakra UI',
   icon: 'simple-icons:chakraui',
@@ -106,6 +113,13 @@ export const macos = createSkillFactory({
   name: 'OSX',
   icon: 'simple-icons:macos',
   iconColor: '#000000',
+  url: 'https://apple.com/',
+});
+
+export const mysql = createSkillFactory({
+  name: 'MySQL',
+  icon: 'simple-icons:mysql',
+  iconColor: '#4479A1',
   url: 'https://apple.com/',
 });
 
@@ -232,6 +246,20 @@ export const tailwindCss = createSkillFactory({
   name: 'Tailwind CSS',
   icon: 'simple-icons:tailwindcss',
   iconColor: '#06B6D4',
+  url: 'https://tailwindcss.com/',
+});
+
+export const teams = createSkillFactory({
+  name: 'Microsoft Teams',
+  icon: 'simple-icons:microsoftteams',
+  iconColor: '#6264A7',
+  url: 'https://tailwindcss.com/',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#844FBA',
   url: 'https://tailwindcss.com/',
 });
 
