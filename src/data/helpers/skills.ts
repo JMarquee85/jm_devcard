@@ -123,6 +123,13 @@ export const mysql = createSkillFactory({
   url: 'https://apple.com/',
 });
 
+export const nestjs = createSkillFactory({
+  name: 'NestJS',
+  icon: 'simple-icons:nestjs',
+  iconColor: '#E0234E',
+  url: 'https://nestjs.com/',
+});
+
 export const nodeJs = createSkillFactory({
   name: 'nodeJS',
   icon: 'simple-icons:nodedotjs',

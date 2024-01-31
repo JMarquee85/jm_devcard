@@ -10,6 +10,8 @@ import {
   ios,
   linux,
   macos,
+  nestjs,
+  nodeJs,
   postgreSql,
   powershell,
   python,
@@ -41,7 +43,7 @@ const experienceSectionData = {
           Secrets Manager, etc.)`,
       tagsList: {
         title: 'Technologies',
-        tags: [typescript(), postgreSql(), python(), bash(), snowflake(), aws(), azure(), github_icon(), terraform()],
+        tags: [typescript(), postgreSql(), python(), bash(), nestjs(), nodeJs(), snowflake(), aws(), azure(), github_icon(), terraform()],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
