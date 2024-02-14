@@ -32,7 +32,7 @@ const skillsSectionData = {
             'Experience with Python in many contexts, including data science, services and interacting with Cloud provider services such as AWS.',
         }),
         typescript({
-          level: 3,
+          level: 4,
           description: 'Experience writing and contributing to both frontend and backend applications.',
         }),
         powershell({
@@ -45,8 +45,8 @@ const skillsSectionData = {
           level: 4,
           description: 'Bash scripting as well as contextual configuration changes in CI/CD pipelines and other such contexts.',
         }),
-        terraform({ level: 3}),
-        aws({ level: 3,
+        terraform({ level: 4}),
+        aws({ level: 5,
           description: 'Experience managing a wide variety of AWS services, including ECS, EKS, Batch, S3, Lambda, Secrets Manager, etc.',
         }),
         azure({
@@ -54,10 +54,10 @@ const skillsSectionData = {
           description:
             'Served as a System Administrator and later managed a SysAdmin team for a company using Microsoft and Azure as a major component of its setup.',
         }),
-        astro({ level: 2,
+        astro({ level: 3,
           description: 'Experience using Astro to build static sites.',}),
         snowflake({ level: 3, }),
-        linux({ level: 4, }),
+        linux({ level: 5, }),
       ],
     },
     // {
