@@ -90,9 +90,9 @@ const portfolioSectionData = {
       dates: [new Date('2018-01'), new Date('2020-12')],
       details: [
         { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
+        { label: 'My role', value: ['Developer', 'Designer'] },
         { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'Category', value: ['Application', 'Workflow'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
@@ -111,10 +111,10 @@ const portfolioSectionData = {
       image: import('@/assets/portfolio/project-4.jpeg'),
       dates: [new Date('2016-05'), new Date('2018-07')],
       details: [
-        { label: 'Team size', value: '11 people' },
-        { label: 'My role', value: 'Front-end Developer' },
-        { label: 'Company', value: 'Google' },
-        { label: 'Category', value: ['Mobile app', 'Open source'] },
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: 'Developer' },
+        { label: 'Company', value: 'Talkiatry' },
+        { label: 'Category', value: ['Script', 'Workflow'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
