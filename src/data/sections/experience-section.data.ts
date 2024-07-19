@@ -33,7 +33,7 @@ const experienceSectionData = {
       role: 'Platform and DevOps Engineer',
       company: 'Talkiatry',
       image: import('@/assets/logos/talkiatry-logo.png'),
-      dates: [new Date('2023-03'), null],
+      dates: [new Date('2023-03'), new Date('2024-04')],
       description: `
         - Write and debug applications and services in Typescript, Python, Bash, and other languages
         - Write applications, tools and services in Python, Typescript, PowerShell, Bash, and other languages
