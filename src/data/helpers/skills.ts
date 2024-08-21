@@ -102,6 +102,20 @@ export const github_icon = createSkillFactory({
   url: 'https://github.com/',
 });
 
+export const gitlab = createSkillFactory({
+  name: 'Gitlab',
+  icon: 'simple-icons:gitlab',
+  iconColor: '#FC6D26',
+  url: 'https://gitlab.com/',
+});
+
+export const google_cloud = createSkillFactory({
+  name: 'Google Cloud Platform',
+  icon: 'simple-icons:googlecloud',
+  iconColor: '#4285F4',
+  url: 'https://google.com/',
+});
+
 export const ios = createSkillFactory({
   name: 'iOS',
   icon: 'simple-icons:ios',
