@@ -139,39 +139,39 @@ const experienceSectionData = {
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
-    {
-      role: 'Advanced Technical Support Supervisor',
-      company: 'NYC Dept. of Health/ MTX',
-      image: import('@/assets/logos/nychealth.jpeg'),
-      dates: [new Date('2021-02'), new Date('2021-07')],
-      description: `
-        - Provided help desk support to medical and non-medical personnel distributing the COVID-19 vaccine
-        - Provided hardware and software support on iOS and Windows devices
-        - Interfaced with MTX management to ensure HIPAA compliance
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [ios()],
-      },
-      links: [website({ url: 'https://www.nyc.gov/site/doh/index.page' })],
-    },
-    {
-      role: 'Technical Support Representative',
-      company: 'InMotion Hosting',
-      image: import('@/assets/logos/inmotionhosting.png'),
-      dates: [new Date('2017-06'), new Date('2018-02')],
-      description: `
-        - Provided Linux support or web hosting clients
-        - Provided technical support via phone, email, and live chat
-        - Diagnosed issues related to Wordpress and other content management systems
-        - Assisted customers with DNS setup for domains, mail, verification records, etc.
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [linux(), cpanel()],
-      },
-      links: [website({ url: 'https://inmotionhosting.com' })],
-    },
+    // {
+    //   role: 'Advanced Technical Support Supervisor',
+    //   company: 'NYC Dept. of Health/ MTX',
+    //   image: import('@/assets/logos/nychealth.jpeg'),
+    //   dates: [new Date('2021-02'), new Date('2021-07')],
+    //   description: `
+    //     - Provided help desk support to medical and non-medical personnel distributing the COVID-19 vaccine
+    //     - Provided hardware and software support on iOS and Windows devices
+    //     - Interfaced with MTX management to ensure HIPAA compliance
+    //   `,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [ios()],
+    //   },
+    //   links: [website({ url: 'https://www.nyc.gov/site/doh/index.page' })],
+    // },
+    // {
+    //   role: 'Technical Support Representative',
+    //   company: 'InMotion Hosting',
+    //   image: import('@/assets/logos/inmotionhosting.png'),
+    //   dates: [new Date('2017-06'), new Date('2018-02')],
+    //   description: `
+    //     - Provided Linux support or web hosting clients
+    //     - Provided technical support via phone, email, and live chat
+    //     - Diagnosed issues related to Wordpress and other content management systems
+    //     - Assisted customers with DNS setup for domains, mail, verification records, etc.
+    //   `,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [linux(), cpanel()],
+    //   },
+    //   links: [website({ url: 'https://inmotionhosting.com' })],
+    // },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 
