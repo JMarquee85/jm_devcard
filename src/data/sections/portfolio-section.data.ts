@@ -70,7 +70,7 @@ const portfolioSectionData = {
         { label: 'Team size', value: '2 people' },
         { label: 'My role', value: ['Contributor'] },
         // { label: 'Company', value: 'Facebook' },
-        { label: 'Category', value: ['Web app']},
+        { label: 'Category', value: ['Web app'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://tru-quest-ck7ea3.netlify.app', url: '#' },
@@ -109,7 +109,7 @@ const portfolioSectionData = {
     {
       name: 'Teams Automation for New Hires',
       image: import('@/assets/portfolio/project-4.jpeg'),
-      dates: [new Date('2016-05'), new Date('2018-07')],
+      dates: [new Date('2021-09'), new Date('2022-02')],
       details: [
         { label: 'Team size', value: '1 person' },
         { label: 'My role', value: 'Developer' },
