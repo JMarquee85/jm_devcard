@@ -112,28 +112,6 @@ const portfolioSectionData = {
       links: [mockups({ url: '#' }), demo({ url: 'https://js.binkmusic.com' })],
     },
     {
-      name: 'PDF Forwarder for Doggy Daycare',
-      image: import('@/assets/portfolio/project-3.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Application', 'Workflow'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
-      ],
-      description:
-        'DocForwarder was an application designed to take a paper application form for potential clients of the doggy daycare and host the process electronically. Potential clients were asked to go to a Google Form to fill out the needed information. Their reponses were parsed and inserted into the original PDF and sent to the office for processing.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [python(), github_icon()],
-      },
-      links: [website({ url: '#' }), github({ url: '#' })],
-    },
-    {
       name: 'Teams Automation for New Hires',
       image: import('@/assets/portfolio/project-4.jpeg'),
       dates: [new Date('2021-09'), new Date('2022-02')],
@@ -154,6 +132,28 @@ const portfolioSectionData = {
         tags: [powershell(), teams()],
       },
       links: [mockups({ url: '#' }), github({ url: '#' })],
+    },
+    {
+      name: 'PDF Forwarder for Doggy Daycare',
+      image: import('@/assets/portfolio/project-3.jpeg'),
+      dates: [new Date('2016-01'), new Date('2016-12')],
+      details: [
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['Developer', 'Designer'] },
+        { label: 'Company', value: 'None' },
+        { label: 'Category', value: ['Application', 'Workflow'] },
+      ],
+      pdfDetails: [
+        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
+        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
+      ],
+      description:
+        'DocForwarder was an application designed to take a paper application form for potential clients of the doggy daycare and host the process electronically. Potential clients were asked to go to a Google Form to fill out the needed information. Their reponses were parsed and inserted into the original PDF and sent to the office for processing.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [python(), github_icon()],
+      },
+      links: [website({ url: '#' }), github({ url: '#' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
