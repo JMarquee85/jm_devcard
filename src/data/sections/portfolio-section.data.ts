@@ -36,6 +36,33 @@ const portfolioSectionData = {
   },
   projects: [
     {
+      name: 'UEM Mobile Shared Devices',
+      image: import('@/assets/portfolio/project-1.jpeg'),
+      dates: [new Date('2024-11'), null],
+      details: [
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Developer', 'Designer'] },
+        { label: 'Company', value: 'Marriott International' },
+        { label: 'Category', value: ['Scripting', 'Device Management', 'CI/CD', 'Configuration as Code'] },
+      ],
+      pdfDetails: [
+        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
+        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+      ],
+      screenshots: [
+        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
+        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
+        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+      ],
+      description:
+        'This application automated the creation and deployment of infrastructure to enroll shared iOS and Android devices in Microsoft Intune. The application handled the creation of a group structure that organized other dynamic groups by role, applied those groups to relevant policies, created dynamic groups looking for devices deployed under the related enrollment profile and added those dynamic groups to their corresponding overarching groups, added groups to apps to grant device access to applications, added Android enrollment profile tokens and QR codes and created and stored PDFs with Android enrollment QR codes for distribution to users with a need to enroll those devices. This application was deployed using a CI/CD workflow and an input list externalized to allow an additional userbase to kick off deployments for properties in need of shared device infrastructure both in development and production environments.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [python(), azure(), github_icon()],
+      },
+      links: [mockups({ url: '#' }), demo({ url: '#' })],
+    },
+    {
       name: 'ADP2AAD',
       image: import('@/assets/portfolio/project-1.jpeg'),
       dates: [new Date('2022-03'), null],
