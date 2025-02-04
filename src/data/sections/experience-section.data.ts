@@ -39,7 +39,7 @@ const experienceSectionData = {
       dates: [new Date('2024-04'), null],
       description: `
         - Administer Microsoft Intune in a hybrid environment
-        - Engineer authentication solutions
+        - Engineer authentication solutions organization wide
         - Write and maintain applications to automate processes in Python, Bash, PowerShell and more
         - Assist with teaching application development to co-workers
         - Maintain a high level of user experience and user satisfaction in speed to troubleshoot issues
