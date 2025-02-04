@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/jm_photo.jpg'),
   fullName: 'Josh Marcus',
-  role: 'Full Stack Software Engineer',
+  role: 'Cloud Engineer // DevOps Engineer // Software Developer',
   details: [
     // { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
     { label: 'Email', value: 'joshmarcus85@gmail.com', url: 'mailto:joshmarcus85@gmail.com' },
