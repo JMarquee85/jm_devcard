@@ -33,6 +33,63 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Senior Systems Engineer/ Python Developer',
+      company: 'Marriott International',
+      image: import('@/assets/logos/marriott.jpg'),
+      dates: [new Date('2024-04'), null],
+      description: `
+        - Administer Microsoft Intune in a hybrid environment
+        - Engineer authentication solutions
+        - Write and maintain applications to automate processes in Python, Bash, PowerShell and more
+        - Assist with teaching application development to co-workers
+        - Maintain a high level of user experience and user satisfaction in speed to troubleshoot issues
+        - Leverage Graph API and the WorkspaceOne API on a daily basis to automate workflows
+        - Utilize a test driven development and unit testing strategy
+        - Represent Microsoft Intune in the context of the larger enterprise architecture
+        - Business analysis to understand the best solution to a given problem in a complex and global environment`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [python(), bash(), azure(), github_icon(), docker()],
+      },
+      links: [website({ url: 'https://marriott.com' })],
+    },
+    {
+      role: 'Toolchain Specialist',
+      company: 'RTX',
+      image: import('@/assets/logos/RTXLogo.png'),
+      dates: [new Date('2024-02'), null],
+      description: `
+          - Administer all aspects of cloud infrastructure for AWS, Microsoft Azure and Google Cloud Platform (GCP)
+          - Administer Version Control Systems such as Gitlab and Github
+          - Build wide variety of software using Docker and other tools
+          - Implement and track infrastructure using Terraform/Cloudformation
+          - Scripting in Bash, Powershell, Python, Javascript/Typescript and more
+          - Deploy multi-account environment in AWS using LZA
+          - Manage and optimize the computer science tooling throughout the program
+          - Configured Terraform to implement networking between GCP and AWS
+          - Design and implement Continuous Integration/Continuous Delivery
+          - Assist with configuration management solutions
+          - Assist with AWS network configurations and network operations
+          - Configure and maintain cross-platform identity management across Azure, GCP, and AWS
+          - Utilize a wide base of technical skills and cloud engineering methods on a daily basis`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [
+          python(),
+          powershell(),
+          bash(),
+          aws(),
+          azure(),
+          google_cloud(),
+          github_icon(),
+          gitlab(),
+          terraform(),
+          docker(),
+        ],
+      },
+      links: [website({ url: 'https://rtx.com' })],
+    },
+    {
       role: 'Platform and DevOps Engineer',
       company: 'Talkiatry',
       image: import('@/assets/logos/talkiatry-logo.png'),
@@ -46,7 +103,20 @@ const experienceSectionData = {
           Secrets Manager, etc.)`,
       tagsList: {
         title: 'Technologies',
-        tags: [typescript(), postgreSql(), python(), bash(), nestjs(), nodeJs(), snowflake(), aws(), azure(), github_icon(), terraform()],
+        tags: [
+          typescript(),
+          postgreSql(),
+          python(),
+          bash(),
+          nestjs(),
+          nodeJs(),
+          snowflake(),
+          aws(),
+          azure(),
+          github_icon(),
+          terraform(),
+          docker(),
+        ],
       },
       links: [website({ url: 'https://talkiatry.com' })],
     },
@@ -54,7 +124,7 @@ const experienceSectionData = {
       role: 'Manager of IT Services, System Administration',
       company: 'Talkiatry',
       image: import('@/assets/logos/talkiatry-logo.png'),
-      dates: [new Date('2021-07'), new Date('2023-03')],
+      dates: [new Date('2021-07'), new Date('2023-12')],
       description: `
         - Configured wide variety of applications for enterprise use
         - Oversaw team of six System Administrators
