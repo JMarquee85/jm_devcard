@@ -53,42 +53,42 @@ const experienceSectionData = {
       },
       links: [website({ url: 'https://marriott.com' })],
     },
-    {
-      role: 'Toolchain Specialist',
-      company: 'RTX',
-      image: import('@/assets/logos/RTXLogo.png'),
-      dates: [new Date('2024-02'), null],
-      description: `
-          - Administer all aspects of cloud infrastructure for AWS, Microsoft Azure and Google Cloud Platform (GCP)
-          - Administer Version Control Systems such as Gitlab and Github
-          - Build wide variety of software using Docker and other tools
-          - Implement and track infrastructure using Terraform/Cloudformation
-          - Scripting in Bash, Powershell, Python, Javascript/Typescript and more
-          - Deploy multi-account environment in AWS using LZA
-          - Manage and optimize the computer science tooling throughout the program
-          - Configured Terraform to implement networking between GCP and AWS
-          - Design and implement Continuous Integration/Continuous Delivery
-          - Assist with configuration management solutions
-          - Assist with AWS network configurations and network operations
-          - Configure and maintain cross-platform identity management across Azure, GCP, and AWS
-          - Utilize a wide base of technical skills and cloud engineering methods on a daily basis`,
-      tagsList: {
-        title: 'Technologies',
-        tags: [
-          python(),
-          powershell(),
-          bash(),
-          aws(),
-          azure(),
-          google_cloud(),
-          github_icon(),
-          gitlab(),
-          terraform(),
-          docker(),
-        ],
-      },
-      links: [website({ url: 'https://rtx.com' })],
-    },
+    // {
+    //   role: 'Toolchain Specialist',
+    //   company: 'RTX',
+    //   image: import('@/assets/logos/RTXLogo.png'),
+    //   dates: [new Date('2024-02'), null],
+    //   description: `
+    //       - Administer all aspects of cloud infrastructure for AWS, Microsoft Azure and Google Cloud Platform (GCP)
+    //       - Administer Version Control Systems such as Gitlab and Github
+    //       - Build wide variety of software using Docker and other tools
+    //       - Implement and track infrastructure using Terraform/Cloudformation
+    //       - Scripting in Bash, Powershell, Python, Javascript/Typescript and more
+    //       - Deploy multi-account environment in AWS using LZA
+    //       - Manage and optimize the computer science tooling throughout the program
+    //       - Configured Terraform to implement networking between GCP and AWS
+    //       - Design and implement Continuous Integration/Continuous Delivery
+    //       - Assist with configuration management solutions
+    //       - Assist with AWS network configurations and network operations
+    //       - Configure and maintain cross-platform identity management across Azure, GCP, and AWS
+    //       - Utilize a wide base of technical skills and cloud engineering methods on a daily basis`,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [
+    //       python(),
+    //       powershell(),
+    //       bash(),
+    //       aws(),
+    //       azure(),
+    //       google_cloud(),
+    //       github_icon(),
+    //       gitlab(),
+    //       terraform(),
+    //       docker(),
+    //     ],
+    //   },
+    //   links: [website({ url: 'https://rtx.com' })],
+    // },
     {
       role: 'Platform and DevOps Engineer',
       company: 'Talkiatry',
